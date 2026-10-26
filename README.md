@@ -1,25 +1,25 @@
-Titanic: Tirik qolish bashorati (Titanic Survival Prediction)
+Titanic: Survival Prediction
 
-Bu loyiha Titanic kemasi halokatida yo'lovchilarning tirik qolish ehtimolini bashorat qiluvchi **Machine Learning** modeli va unga ulangan **Streamlit** veb-ilovasidan iborat.
+This project is a Machine Learning web application built with **Streamlit** to predict the survival probability of passengers on the Titanic.
 
- Loyihaning imkoniyatlari
-- Yo'lovchining jinsi, yoshi, chipta sinfi va boshqa parametrlarini kiritish orqali uning tirik qolish ehtimolini foizda hisoblash.
-- Foydalanuvchilarga qulay va sodda veb-interfeys (**Streamlit** yordamida).
+ Features
+- Predicts the survival probability of a passenger based on features like class, sex, age, fare, and family size.
+- An interactive and user-friendly web interface built using **Streamlit**.
 
-Loyiha tuzilmasi
-- `app.py` — Streamlit veb-ilovasining asosiy kodi.
-- `Titanic.ipynb` — Ma'lumotlarni tahlil qilish, tozalash va ML modellarini solishtirib ko'rish noutbuki.
-- `titanic_model.joblib` — O'qitilgan eng yaxshi bashorat qilish modeli.
-- `requirements.txt` — Loyihaga kerakli kutubxonalar ro'yxati.
+Project Structure
+- `app.py` — The main code for the Streamlit web application.
+- `Titanic.ipynb` — Jupyter Notebook for data analysis, preprocessing, and machine learning model training.
+- `titanic_model.joblib` — The trained classification model.
+- `requirements.txt` — List of required Python packages.
 
-Ishlatilgan texnologiyalar
+Technologies Used
 - **Python**
-- **Pandas** (Ma'lumotlarni qayta ishlash)
-- **Scikit-learn** (Machine Learning modellari va Pipeline)
-- **Streamlit** (Veb-interfeys)
-- **Joblib** (Modelni saqlash)
+- **Pandas** (Data manipulation and analysis)
+- **Scikit-learn** (Machine Learning models, preprocessing pipelines, and evaluation)
+- **Streamlit** (Web interface development)
+- **Joblib** (Model saving and loading)
 
-Mahalliy kompyuterda ishga tushirish (Local Installation)
-1. Repozitoriyani klon qilib oling:
+Local Installation
+1. Clone the repository:
    ```bash
    git clone [https://github.com/muxtorov01/titanic-ml-project.git](https://github.com/muxtorov01/titanic-ml-project.git)
