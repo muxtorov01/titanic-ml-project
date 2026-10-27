@@ -1,4 +1,4 @@
-Titanic: Survival Prediction
+# Titanic: Survival Prediction
 
 A machine learning project that predicts the survival probability of a Titanic passenger, with an interactive web interface built using **Streamlit**.
 
